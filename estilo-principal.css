@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa-logo {
+  display: flex;
+  flex-direction: row;
+  background-color: #17479e;
+  padding: 30px;
+}
+.caixa-logo img {
+  width: 100%;
+}
+.logo-left {
+  width: 50%;
+}
+
+#navbar {
+  z-index: 999999;
+}
+.topnav {
+  transition: all 3s;
+  overflow: hidden;
+  background-color: #333;
+  justify-content: space-around;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: red;
+}
+
+.main-content {
+  /* padding: 16px; */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky .topnav {
+  overflow: hidden;
+  background-color: rgb(102, 123, 212);
+  color: #000;
+  transition: all 3s;
+}
+
+.sticky .topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sticky + .content {
+  padding-top: 10px;
+}
+
+/* .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      } */
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a.login {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav a.login:hover {
+  background-color: yellow;
+  color: #333;
+}
+
+.caixa-footer {
+  background-color: #17479e;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+ 
+}
+ 
+.footer-left {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+width: 50%;
+height: auto;
+  /* height: 30px; */
+  background-color: rgba(23, 71, 158, 0.1);
+  color: white;
+  text-align: center;
+}
+.footer-rigth {
+  background-color: #04aa6d;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.topnav a.active-voltar {
+  background-color: #0415aa;
+  color: white;
+}

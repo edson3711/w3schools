@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W2Schools</title>
+    <link rel="stylesheet" href="estilo-principal.css">
+    <link rel="stylesheet" href="estilo-slideshow.css">
+    <link rel="stylesheet" href="estilo-catalogo.css">
+    <link rel="stylesheet" href="estilo-card.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--  AQUI CAIXA DE LOGO -->
+    <header>
+        <div class="caixa-logo">
+            <div class="logo-left ">
+
+            <img src="imagens/MicrosoftTeams-image.png" alt="logo-branco" />
+        </div>
+        <div class="logo-rigth ">
+            <h2>Adote um amigo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima itaque quaerat incidunt ab doloremque
+                ullam commodi asperiores delectus nulla culpa atque ipsam repellat, recusandae aut voluptas earum,
+                veniam magni perferendis harum, nemo sapiente quo consequuntur blanditiis. Minima inventore et sint
+                magnam nesciunt repellendus in atque odit, necessitatibus facilis quidem nemo! Facilis reprehenderit
+                earum mollitia tempora minus obcaecati nihil ipsa magni totam, dignissimos minima laboriosam inventore!
+                Expedita possimus suscipit minus voluptates maiores consequatur quo est nobis repellendus quibusdam
+                nihil velit dolor ea facere impedit, alias doloribus labore, sit rerum voluptatum soluta perferendis!
+                Amet doloremque aperiam mollitia alias hic tenetur, dolor obcaecati!</p>
+        </div>
+        </div>
+        <nav id="navbar">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <div class="topnav-right">
+                    <a href="#search">Search</a>
+                    <a class="login" href="login.html">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div style="padding-left: 16px">
+        <h2>Top Navigation with Right Aligned Links</h2>
+        <p>Some content..</p>
+
+        <!-- AQUI CAIXA DE MAIN - VERIFICAR NOME DEPOIS -->
+        <main class="main-content">
+            <!-- AQUI VEM O SLIDES -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="https://www.adotepetz.com.br/images/projetos-0.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="https://www.adotepetz.com.br/images/projetos-2.png" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="https://www.adotepetz.com.br/images/projetos-0.jpg " style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!-- AQUI VEM O CATALOFO - PORTOFOLIO -->
+
+            <!-- MAIN (Center website) -->
+            <section class="catalogo">
+
+
+                <h2>PORTFOLIO</h2>
+                <p>Resize the browser window to see the responsive effect.</p>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <img class="image-catalogo" src="imagens/Toby.jfif" alt="Mountains">
+                            <h3>My Work</h3>
+                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                                tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img class="image-catalogo" src="imagens/Biscoito.jfif" alt="Lights">
+                            <h3>My Work</h3>
+                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                                tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img class="image-catalogo" src="imagens/Filó.jfif" alt="Nature">
+                            <h3>My Work</h3>
+                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                                tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img class="image-catalogo" src="imagens/fred.jfif" alt="Mountains">
+                            <h3>My Work</h3>
+                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                                tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                        </div>
+                    </div>
+                    <!-- END GRID -->
+                </div>
+
+                <div class="content">
+                    <img class="image-catalogo grande" src="imagens/caramelo.jfif" alt="Bear">
+                    <h3>Some Other Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
+                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
+                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                </div>
+
+                <!-- END MAIN -->
+            </section>
+
+            <section class="caixa-card">
+
+
+                <div class="card">
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="card-info">
+                        <h4><b>Jane Doe</b></h4>
+                        <p>Interior Designer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
+                    <div class="card-info">
+                        <h4><b>Jane Doe</b></h4>
+                        <p>Interior Designer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
+                    <div class="card-info">
+                        <h4><b>Jane Doe</b></h4>
+                        <p>Interior Designer</p>
+                    </div>
+                </div>
+            </section>
+ 
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vitae
+                blanditiis animi nostrum repellat eligendi sunt facere quas libero
+                ad molestias asperiores quaerat, sint earum voluptate! Aliquid quam
+                officia exercitationem!
+            </p>
+    </div>
+
+    </main>
+
+    <footer class="caixa-footer">
+        
+        <div class="footer-rigth ">
+            <h2>Nossa missão</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima itaque quaerat incidunt ab doloremque
+                ullam commodi asperiores delectus nulla culpa atque ipsam repellat, recusandae aut voluptas earum,
+                veniam magni perferendis harum, nemo sapiente quo consequuntur blanditiis. Minima inventore et sint
+                magnam nesciunt repellendus in atque odit, necessitatibus facilis quidem nemo! Facilis reprehenderit
+                earum mollitia tempora minus obcaecati nihil ipsa magni totam, dignissimos minima laboriosam inventore!
+                Expedita possimus suscipit minus voluptates maiores consequatur quo est nobis repellendus quibusdam
+                nihil velit dolor ea facere impedit, alias doloribus labore, sit rerum voluptatum soluta perferendis!
+                Amet doloremque aperiam mollitia alias hic tenetur, dolor obcaecati!</p>
+        </div>
+        <div class="footer-left ">
+
+            <img class="logo-rigth" src="imagens/MicrosoftTeams-image.png" alt="logo-branco" />
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
